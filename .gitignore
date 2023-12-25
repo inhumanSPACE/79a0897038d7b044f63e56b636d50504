@@ -1,0 +1,4 @@
+.idea
+graphenv
+media/*
+!media/.gitkeep
