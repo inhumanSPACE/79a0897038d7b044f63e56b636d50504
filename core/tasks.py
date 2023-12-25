@@ -65,10 +65,3 @@ def generate_picture(func_id):
             plt.close()
             func.graph.save(f'{func_id}', picture)
             func.creation_date = datetime.now()
-
-#todo
-# пофиксить, что селери выводит ошибку ValueError в логи, а не на фронт
-# проверить, правильно ли выводятся графкики и в случае чего попытаться раскидать их на разные функции
-# Название - рандомный хэш
-# rabbitmq
-# верить в бога и что меня возьмут на работу :)
